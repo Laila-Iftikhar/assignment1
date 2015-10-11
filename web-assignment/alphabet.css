@@ -1,0 +1,24 @@
+#apple{
+width: 150px; height: 150px; background: red; -moz-border-radius: 75px; -webkit-border-radius: 75px; border-radius: 75px;
+
+}
+#ball{
+width: 96px; height: 48px; background: #eee; border-color: green; border-style: solid; border-width: 2px 2px 50px 2px; border-radius: 100%; position: relative; } #ball:before { content: ""; position: absolute; top: 50%; left: 0; background: #eee; border: 18px solid green; border-radius: 100%; width: 12px; height: 12px; } #ball:after { content: ""; position: absolute; top: 50%; left: 50%; background: green; border: 18px solid #eee; border-radius:100%; width: 12px; height: 12px; }
+#cone{
+width: 0; height: 0; border-left: 100px solid transparent; border-right: 100px solid transparent; border-top: 150px solid red; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+#diamond{
+width:0;height: 0; border: 50px solid transparent; border-bottom: 20px solid ; position: relative; top: -50px; } #diamond:after { content: ''; position: absolute; left: -50px; top: 20px; width: 0; height: 0; border: 50px solid transparent; border-top: 50px solid pink; }
+#egg{
+display:block; width: 126px; height: 180px; background-color: red; -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;}
+
+#heart { position: relative; width: 100px; height: 90px; } #heart:before, #heart:after { position: absolute; content: ""; left: 50px; top: 0; width: 50px; height: 80px; background: red; -moz-border-radius: 50px 50px 0 0; border-radius: 50px 50px 0 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transform-origin: 0 100%; -moz-transform-origin: 0 100%; -ms-transform-origin: 0 100%; -o-transform-origin: 0 100%; transform-origin: 0 100%; } #heart:after { left: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transform-origin: 100% 100%; -moz-transform-origin: 100% 100%; -ms-transform-origin: 100% 100%; -o-transform-origin: 100% 100%; transform-origin :100% 100%; }
+#kite{
+width:0;
+height: 0; border: 50px solid transparent; border-bottom: 70px solid red; position: relative; top: -50px; } #kite:after { content: ''; position: absolute; left: -50px; top: 70px; width: 0; height: 0; border: 50px solid transparent; border-top: 70px solid red; }
+#moon { width: 80px; height: 80px; border-radius: 50%; box-shadow: 15px 15px 0 0 red; }
+#oval {width: 200px; height: 100px; background: red; -moz-border-radius: 100px / 50px; -webkit-border-radius: 100px / 50px; border-radius: 100px / 50px; } 
+#pacman { width: 0px; height: 0px; border-right: 60px solid transparent; border-top: 60px solid red; border-left: 60px solid red; border-bottom: 60px solid red; border-top-left-radius: 60px; border-top-right-radius: 60px; border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; } 
+#rectangle { width: 200px; height: 100px; background: red; }
+#star-five { margin: 50px 0; position: relative; display: block; color: red; width: 0px; height: 0px; border-right: 100px solid transparent; border-bottom: 70px solid red; border-left: 100px solid transparent; -moz-transform: rotate(35deg); -webkit-transform: rotate(35deg); -ms-transform: rotate(35deg); -o-transform: rotate(35deg); } #star-five:before { border-bottom: 80px solid red; border-left: 30px solid transparent; border-right: 30px solid transparent; position: absolute; height: 0; width: 0; top: -45px; left: -65px; display: block; content: ''; -webkit-transform: rotate(-35deg); -moz-transform: rotate(-35deg); -ms-transform: rotate(-35deg); -o-transform: rotate(-35deg); } #star-five:after { position: absolute; display: block; color: red; top: 3px; left: -105px; width: 0px; height: 0px; border-right: 100px solid transparent; border-bottom: 70px solid red; border-left: 100px solid transparent; -webkit-transform: rotate(-70deg); -moz-transform: rotate(-70deg); -ms-transform: rotate(-70deg); -o-transform: rotate(-70deg); content: ''; }
+#triangle-up { width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid red; }
